@@ -27,5 +27,6 @@
     * video - to set video in your page
     * audio - to set audio in your page
     * iframe - to set youtube videos in your page
-    * 
+    * <!-- Comment --> : Comments are not displayed in the browser, but they can help document your HTML source code.
+
     
