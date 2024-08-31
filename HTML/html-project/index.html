@@ -70,10 +70,14 @@
         <h2>Contact me for get your service</h2>
       </div>
      <div class="mail-us">
-       <input type="text" name="name" placeholder="Full Name">
-       <input type="email" name="email" placeholder="Email">
-       <input type="tel" name="phone" placeholder="Phone">
-       <input name="country" list="country_name" placeholder="Select Your Country">
+       <label for="fullName">Full Name: </label>
+       <input type="text" name="name" id="fullName" placeholder="Full Name">
+       <label for="email"> Email: </label>
+       <input type="email" id="email" name="email" placeholder="Email">
+       <label for="phone">Phone: </label>
+       <input type="tel" name="phone" id="phone" placeholder="Phone">
+       <label for="country">Select Country</label>
+       <input name="country" list="country_name" id="country" placeholder="Select Your Country">
        <datalist id="country_name">
          <option value="Bangladesh">
          <option value="Pakistan">
@@ -83,7 +87,8 @@
          <option value="Canada">
          <option value="United States of America">
        </datalist>
-       <textarea name="message" cols="30" rows="10" placeholder="Type your message"></textarea>
+       <label for="message">Type your Message</label>
+       <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message"></textarea>
        <button type="submit">Submit</button>
      </div>
     </div>
@@ -95,7 +100,7 @@
         <img src="./assets/images/github.svg" alt="Github"> <a href="#">http://github.com/jahirul-islam-jantu</a>
       </div>
       <div class="copyright">
-        <p>&#169; All rights reserved by Jahirul Islam</p>
+        <p>&#169; All rights reserved by Jahirul Islam - 2024 </p>
 
       </div>
     </footer>
