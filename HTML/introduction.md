@@ -26,7 +26,13 @@
     * marque - to create text slider in your page
     * video - to set video in your page
     * audio - to set audio in your page
-    * iframe - to set youtube videos in your page
+    * iframe - to set embded file in your page
     * <!-- Comment --> : Comments are not displayed in the browser, but they can help document your HTML source code.
 
-    
+# CSS   
+    * Padding - padding properties :    
+        padding-top - to set gap inside the element in top side 
+        padding-bottom, 
+        padding-left, 
+        padding-right,  
+        padding
