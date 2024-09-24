@@ -21,7 +21,6 @@ const submitHandler = ()=>{
     result.innerText = 'Your GPA is C'
 }else if(marks < 40 && marks >= 33){
     result.innerText = 'Your GPA is D'
-    
 }else{
         result.innerText = 'You are Fail'
 
