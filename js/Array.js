@@ -22,10 +22,69 @@ console.log(arrayOfNumbers);
 
 
  */
+/*
 // array concat
 const array1 = [1, 2, 3];
 const array2 = [4,5,6];
 const array3 = array1.concat(array2);
 console.log(array3);
+
+ */
+/*
+const students = new Array(10)
+
+students[0] = "Jahirul Islam"
+students[1] = "Fahim Rana"
+students[2] = "Sanjida sanji"
+students[3] = "Mr Moon"
+students[4] = "Omar Faruq"
+students[5] = "Sakil Ahmed"
+students[6] = "Tanjim"
+students[7] = "Rashedul Islam"
+students[8] = "Tanjim Sarowar"
+students[9] = "H M Nayeem"
+
+for(let s = 0; s < students.length; s++){
+    console.log(students[s])
+    // console.log(s)
+    // console.log(students)
+}
+
+ */
+
+const arr = ["nayeem ","jahirul", "tabib"]
+
+function toUpperCase(arr) {
+    let capitalise = arr.map(item => item.charAt(0).toUpperCase() + item.slice(1).toLowerCase())
+    return capitalise
+}
+
+console.log(toUpperCase(arr))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
