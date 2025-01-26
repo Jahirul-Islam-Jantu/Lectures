@@ -52,15 +52,40 @@ for(let s = 0; s < students.length; s++){
 
  */
 
-const arr = ["nayeem ","jahirul", "tabib"]
+//const arr = ["nayeem ","jahirul", "tabib"]
 
-function toUpperCase(arr) {
-    let capitalise = arr.map(item => item.charAt(0).toUpperCase() + item.slice(1).toLowerCase())
-    return capitalise
+//function toUpperCase(arr) {
+//    let capitalise = arr.map(item => item.charAt(0).toUpperCase() + item.slice(1).toLowerCase())
+//    return capitalise
+//}
+
+//console.log(toUpperCase(arr))
+
+const numbers = [15645, 168, 33168, 118, 46, 1231, 841, 31, 56, 41]
+
+//function sumArray(numbers) {
+//    let maxNumber = numbers[0]
+
+//    for (let number of numbers) {
+//        if (number > maxNumber) {
+//        maxNumber = number
+//        }
+//    }
+//    return maxNumber
+//}
+//console.log(sumArray(numbers))
+
+const minNumbers = (numbers) => {
+    let minNum = numbers[0]
+    for (let num in numbers) {
+        if (num > minNum) {
+            minNum = num
+        }
+    }
+    return minNum
 }
-
-console.log(toUpperCase(arr))
-
+console.log(minNumbers(numbers
+))
 
 
 

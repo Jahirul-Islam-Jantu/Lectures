@@ -1,0 +1,124 @@
+Variables
+What is a Variable?
+Simply, Variables are small storages to store your essential data while coding. By storing data into a variable you can reuse it, manipulate it wherever you want.
+Variables are like Box with Labels, Where the label represents the name of the variable and the content of the box it the value of the variable.
+When I was first discovered it, I was thinking about it’s use case. I was thinking why should I declare a variable, why I need this?
+Probably it was a very funny question, while I started to learn a specific higher level programming language like JavaScript while in the mean time there are a lot of programmers are surfing in the world! Yeah, right.
+Ok let’s have some practical ideas.
+In any programming language you need to use your same data in many places in a project. Variables gives you this flexibility to store data for further use. Something like you have a name or a number to store in somewhere for your further use.
+
+JavaScript
+In JavaScript we declares a variable with built in JavaScript Keywords like var, let and const. we need to declare the var or let or const first and then a variable name and then we assign a value into this variable by using an assignment operator.
+Let’s see an example: var x = 10 or let x = 10 or const x = 10
+
+In the above line we declares same variable with different Keywords.
+Var is the oldest system to declare a variable, and this is suggested not use in modern JavaScript.
+Let and const is Keyword to declare a variable in modern JavaScript.
+In let you can re assign the values of the variable, but in const you can not re assign the value of the variable.
+Example :
+let x = 10
+x = 20
+here we declared a variable with his name x and the assigned value 10.
+In the next line we declare again re assign the value of x with 20.
+The x variable has 20 in it’s value now. It will perfectly work without any complications.
+
+Let’s have an example about const keyword,
+const greet = “Hello, World!”
+x = “Hello, Bangladesh!”
+we can see the variable x has it’s value in a string type and it says Hello, World!. In the next line we tried to re assign the value with Hello, Bangladesh. It will never work and show you an error with a message something like that, cannot re assign a const variable value.
+
+Variables are powerful storage to re use the values in multiple places with expected manner.
+
+TypeScript
+In TypeScript we can use the variables in same way just by defining the variable types before initialize.
+
+Let’s see how to declare a variable in TypeScript
+const country:string = “Bangladesh”
+let num:number = 123
+let isActive:boolean = true
+
+we declare the variable with it’s name and data types here. We will talk about data types in future, for now we are discussing about variables.
+As we defined the variables with it’s name and keywords in JavaScript, we have defined in typescript also with same convention and keywords with some extra data type mentioning in variables name.
+Everything will work as same as before here but in a strict manner.
+But there is a problem here if we want some different type to assign in the variable .
+Let me clear it, we have declared country variable as string type before, if we want to assign  number or Boolean type value in the variable instead of string, it will give us an error.
+Example:
+const country:string = “Bangladesh”
+Bangladesh is a string in country variable,
+If we assign number in country variable it will show us error.
+const country:string = 123
+it is completely a type error.
+But if we say const numberOfCountry:number = 7 this is completely ok.
+
+Define a Variable in typescript is as simple as JavaScript, same Keywords var, let and const are use to define variables with scooping rules and variables names as like as you want, and values of a variable.
+The difference is just we need to say the type of the value.
+
+
+Python
+Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python’s simple, easy to learn syntax emphasizes readability and therefore reduces  the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms , and can be freely distributed.
+
+ Variables in python
+Like every other programming languages, Python allows variables in it’s own approach.
+Like other programming languages, in Python variables are used to store data that can be referenced and manipulated during program execution.
+A variable is actually a name that is assigned for a value, like JavaScript we do not need to explicit the data type in python. The type of the variable is inferred based on it’s assigned value .
+
+Python has no Keywords to declare a variable, a variable is created when you first assigned a value in it.
+
+Example:
+name = “John Doe”
+age = 33
+CGPA = 3.33
+isMarried = false
+
+we can see some variable with different types of data here,
+we just need to name a variable with related to the value for better readability. You can name a variable in any name you want, but the better approach is to name a variable with related name of it’s value.
+We have declared 4 types of variable above, first one is string type because we give it a string value. Second one is an integer type because of it’s a number. Third one is float type because we give a decimal number in the value, and the last one is Boolean type.
+We will discuss about data types later, for now we are discussing variables and its conventions.
+
+In python variable we can change the data type with another value , like age = 33 we can change it by declare again with age = “Thirty Three” and it will print the last assigned value.
+If we want we can define the type of value while declaring a variable.
+Example:
+x = str(3)    # x will be '3'
+y = int(3)    # y will be 3
+z = float(3)  # z will be 3.0
+we have declared the data types with value in the variables here.
+
+
+While declaring a variable, we must follow some rules :
+Naming Convention: we must follow the naming convention to declare a variable in every programming language.
+It will makes the code more readable, and professional.
+A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for naming variables:
+•	A variable name must start with a letter or the underscore character
+•	A variable name cannot start with a number
+•	A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _)
+•	Variable names are case-sensitive (age, Age and AGE are three different variables)
+•	A variable name cannot be any of the JavaScript or Python Keywords.
+Examples:
+let myvar = "John"
+const my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+all of the above names are seems ok to assign, meanwhile every names here follows some naming conventions like,
+camelCase = “This is a camelCase Style”
+PascalCase = “This is a PascalCase Style ”
+snack_case = “This is a snack_case Style”
+also we can declare a variable with UPPERCASE names or a number2 after or middle in a variable name.
+
+it’s to clarify that we must follow the rules for declaring a variable in every programming language.
+To define a string variable we must put our value inside a double quote or single quote .
+name = “Hello, World!”
+To define a number variable we don’t need to put the value inside any quote, we can just write it simple way.
+num = 123
+To define a Boolean type variable we can just say true or false in the value.
+IsActive = true
+
+Finally we can stop the discussion about variable here. We will discuss more way to declare variable for storing an array/list or object/dictionary or function later when we will start learning those things.
+For now Good Bye.
+
+Jahirul Islam
+Self Learner,
+Long way to go…..
+
+
