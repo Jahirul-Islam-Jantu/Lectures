@@ -1,0 +1,4 @@
+  - Data Types
+in all programming language, there are two types of data types. 
+1. Premetive 
+2. Non Premetive 
